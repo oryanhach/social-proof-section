@@ -12,19 +12,178 @@
 			href="./images/favicon-32x32.png" />
 
 		<title>Frontend Mentor | Social proof section</title>
+
+		<!-- Google Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap"
+			rel="stylesheet" />
+
+		<!-- My CSS -->
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		10,000+ of our users love our products. We only provide great products
-		combined with excellent customer service. See what our satisfied
-		customers are saying about our services. Rated 5 Stars in Reviews Rated
-		5 Stars in Report Guru Rated 5 Stars in BestTech Colton Smith Verified
-		Buyer "We needed the same printed design as the one we had ordered a
-		week prior. Not only did they find the original order, but we also
-		received it in time. Excellent!" Irene Roberts Verified Buyer "Customer
-		service is always excellent and very quick turn around. Completely
-		delighted with the simplicity of the purchase and the speed of
-		delivery." Anne Wallace Verified Buyer "Put an order with this company
-		and can only praise them for the very high standard. Will definitely use
-		them again and recommend them to everyone!"
+		<picture class="background-image__top">
+			<source
+				srcset="images/bg-pattern-top-desktop.svg"
+				media="(min-width: 600px)" />
+			<img
+				src="images/bg-pattern-top-mobile.svg"
+				alt="background image" />
+		</picture>
+
+		<main>
+			<div class="social-proof__container">
+				<h1 class="social-proof__title">
+					10,000+ of our users love our products.
+				</h1>
+				<p class="social-proof__content">
+					We only provide great products combined with excellent
+					customer service. See what our satisfied customers are
+					saying about our services.
+				</p>
+			</div>
+			<section class="social-proof__ratings">
+				<div class="social-proof__rating">
+					<section class="review-stars">
+						<img
+							src="images/icon-star.svg"
+							alt="star icon"
+							class="review-star" />
+						<img
+							src="images/icon-star.svg"
+							alt="star icon"
+							class="review-star" />
+						<img
+							src="images/icon-star.svg"
+							alt="star icon"
+							class="review-star" />
+						<img
+							src="images/icon-star.svg"
+							alt="star icon"
+							class="review-star" />
+						<img
+							src="images/icon-star.svg"
+							alt="star icon"
+							class="review-star" />
+					</section>
+					<p class="review-details">Rated 5 Stars in Reviews</p>
+				</div>
+
+				<div class="social-proof__rating">
+					<section class="review-stars">
+						<img
+							src="images/icon-star.svg"
+							alt="star icon"
+							class="review-star" />
+						<img
+							src="images/icon-star.svg"
+							alt="star icon"
+							class="review-star" />
+						<img
+							src="images/icon-star.svg"
+							alt="star icon"
+							class="review-star" />
+						<img
+							src="images/icon-star.svg"
+							alt="star icon"
+							class="review-star" />
+						<img
+							src="images/icon-star.svg"
+							alt="star icon"
+							class="review-star" />
+					</section>
+					<p class="review-details">Rated 5 Stars in Report Guru</p>
+				</div>
+
+				<div class="social-proof__rating">
+					<section class="review-stars">
+						<img
+							src="images/icon-star.svg"
+							alt="star icon"
+							class="review-star" />
+						<img
+							src="images/icon-star.svg"
+							alt="star icon"
+							class="review-star" />
+						<img
+							src="images/icon-star.svg"
+							alt="star icon"
+							class="review-star" />
+						<img
+							src="images/icon-star.svg"
+							alt="star icon"
+							class="review-star" />
+						<img
+							src="images/icon-star.svg"
+							alt="star icon"
+							class="review-star" />
+					</section>
+					<p class="review-details">Rated 5 Stars in BestTech</p>
+				</div>
+			</section>
+			<section class="social-proof__reviews">
+				<div class="social-proof-review">
+					<section class="review-details">
+						<img
+							src="images/image-colton.jpg"
+							alt="Colton picture"
+							class="review__img" />
+						<p class="review__name">Colton Smith</p>
+						<div class="review__status">Verified Buyer</div>
+						<p class="review__text">
+							"We needed the same printed design as the one we had
+							ordered a week prior. Not only did they find the
+							original order, but we also received it in time.
+							Excellent!"
+						</p>
+					</section>
+				</div>
+
+				<div class="social-proof-review">
+					<section class="review-details">
+						<img
+							src="images/image-irene.jpg"
+							alt="Irene picture"
+							class="review__img" />
+						<p class="review__name">Irene Roberts</p>
+						<div class="review__status">Verified Buyer</div>
+						<p class="review__text">
+							Verified Buyer "Customer service is always excellent
+							and very quick turn around. Completely delighted
+							with the simplicity of the purchase and the speed of
+							delivery."
+						</p>
+					</section>
+				</div>
+
+				<div class="social-proof-review">
+					<section class="review-details">
+						<img
+							src="images/image-anne.jpg"
+							alt="Anne picture"
+							class="review__img" />
+						<p class="review__name">Anne Wallace</p>
+						<div class="review__status">Verified Buyer</div>
+						<p class="review__text">
+							Verified Buyer "Put an order with this company and
+							can only praise them for the very high standard.
+							Will definitely use them again and recommend them to
+							everyone!"
+						</p>
+					</section>
+				</div>
+			</section>
+		</main>
+
+		<picture class="background-image__bottom">
+			<source
+				srcset="images/bg-pattern-bottom-desktop.svg"
+				media="(min-width: 600px)" />
+			<img
+				src="images/bg-pattern-bottom-mobile.svg"
+				alt="background image" />
+		</picture>
 	</body>
 </html>

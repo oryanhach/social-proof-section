@@ -1,0 +1,59 @@
+:root {
+	--clr-primary-dark: hsl(300, 43%, 22%);
+	--clr-primary-light: hsl(333, 80%, 67%);
+
+	--clr-neutral-dark: hsl(303, 10%, 53%);
+	--clr-neutral-light: hsl(300, 24%, 96%);
+	--clr-neutral-100: hsl(0, 0%, 100%);
+
+	--ff: 'League Spartan', sans-serif;
+
+	--fw-regular: 400;
+	--fw-medium: 500;
+	--fw-bold: 700;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+}
+
+body {
+	line-height: 1.7;
+	-webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+body {
+	font-family: var(--ff);
+}
