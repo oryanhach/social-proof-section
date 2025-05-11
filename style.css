@@ -1,3 +1,24 @@
+:root {
+	/* Colors */
+	--clr-primary-magenta: hsl(300, 43%, 22%);
+	--clr-primary-pink: hsl(333, 80%, 67%);
+
+	--clr-neutral-magenta-dark: hsl(303, 10%, 53%);
+	--clr-neutral-magenta-light: hsl(300, 24%, 96%);
+	--clr-white: hsl(0, 0%, 100%);
+
+	/* Typography */
+	--ff-primary: 'League Spartan', sans-serif;
+
+	--fs-primary: 15px;
+
+	--fw-bold: 700;
+	--fw-normal: 500;
+	--fw-light: 400;
+}
+
+/* CSS RESET */
+
 /* 1. Use a more-intuitive box-sizing model */
 *,
 *::before,
@@ -73,3 +94,5 @@ h6 {
 #__next {
 	isolation: isolate;
 }
+
+/* General Styling */
