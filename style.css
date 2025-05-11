@@ -96,3 +96,36 @@ h6 {
 }
 
 /* General Styling */
+
+body {
+	padding-inline: 1.2rem;
+	font-family: var(--ff-primary);
+	font-size: var(--fs-primary);
+}
+
+.background__img-top {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+}
+
+.social__header {
+	margin-top: 5rem;
+}
+
+.header__title {
+	text-align: center;
+	line-height: 2rem;
+	color: var(--clr-primary-magenta);
+	font-size: 40px;
+	font-weight: var(--fw-bold);
+}
+
+.header__subtitle {
+	color: var(--clr-neutral-magenta-dark);
+	font-weight: var(--fw-normal);
+	line-height: 1.2rem;
+	margin: 1rem 0.5rem;
+	font-size: 1rem;
+	text-align: center;
+}
