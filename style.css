@@ -129,3 +129,66 @@ body {
 	font-size: 1rem;
 	text-align: center;
 }
+
+.hero__rating {
+	background-color: var(--clr-neutral-magenta-light);
+	margin-bottom: 1rem;
+	border-radius: 0.5rem;
+	padding: 0.85rem;
+}
+
+.hero__rating-stars {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0.5rem;
+}
+
+.hero__text {
+	color: var(--clr-primary-magenta);
+	font-weight: var(--fw-bold);
+	text-align: center;
+}
+
+.social__cards {
+	margin-bottom: 6rem;
+}
+
+.social__card {
+	background-color: var(--clr-primary-magenta);
+	border-radius: 0.5rem;
+	margin-bottom: 1rem;
+	padding: 2rem 1.5rem;
+}
+
+.card__header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.card__img {
+	border-radius: 50%;
+	height: 2.25rem;
+	margin-right: 1rem;
+}
+
+.card__title {
+	color: var(--clr-white);
+	font-weight: var(--fw-normal);
+	height: 1.1rem;
+}
+
+.card__subtitle {
+	color: var(--clr-primary-pink);
+	font-weight: var(--fw-light);
+}
+
+.card__text {
+	color: var(--clr-white);
+	line-height: 1.1rem;
+}
+
+.background__img-bottom {
+	display: none;
+}
